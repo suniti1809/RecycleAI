@@ -1,25 +1,28 @@
 {
-  "name": "recycle-ai",
-  "private": true,
+  "name": "backend",
   "version": "1.0.0",
-  "type": "module",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite --port 3000",
-    "build": "vite build",
-    "test": "vite build",
-    "preview": "vite preview"
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test_e2e.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
+    "@google/genai": "^2.30.0",
     "@supabase/supabase-js": "^2.118.0",
-    "@vis.gl/react-google-maps": "^1.10.1",
-    "leaflet": "^1.9.4",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-leaflet": "^4.2.1",
-    "react-router-dom": "^6.26.1"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.3.1",
-    "vite": "^5.4.2"
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "groq-sdk": "^1.6.0",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.2.0",
+    "sequelize": "^6.37.8",
+    "sqlite3": "^6.0.1"
   }
 }

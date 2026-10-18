@@ -1,0 +1,2 @@
+# Python dependencies for RecycleAI YOLOv8 classifier bridge
+ultralytics>=8.0.0
